@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" style="font-family: 'Inconsolata', monospace;" id="navbar">
+  <a class="navbar-brand " style="margin-top: 0.2rem; color: black;"><img src="https://res.cloudinary.com/drpgvnojt/image/upload/c_crop,w_400,h_100/v1697041714/Sponym_1_eazof2.png" width="150px" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+  <li class="nav-item active">
+        <a class="nav-link" href="/" style="font-weight: 600; font-size: large; margin-top: 0.25rem; color: rgb(4, 4, 49); " id="home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/home" style="font-weight: 600; font-size: large; margin-top: 0.25rem; color: rgb(4, 4, 49); " id="STAY">JNTUA <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/allsubjects" style="font-weight: 600; font-size: large; margin-top: 0.25rem;color: rgb(1, 1, 26); "id="STAY1">Subjects</a>
+      </li>
+      <li class="nav-item active" >
+        <a class="nav-link"  href="/syllabus" style="font-weight: 600; font-size: large; margin-top: 0.25rem;color: rgb(3, 3, 40); "id="STAY2">Syllabus</a>
+      </li>
+<li class="nav-item active" >
+        <a class="nav-link"  href="/updates" style="font-weight: 600; font-size: large; margin-top: 0.25rem;color: rgb(3, 3, 40); "id="STAY3">Updates</a>
+      </li>
+<% if( an === 0) {%>
+  <li class="nav-item active" >
+        <a class="nav-link"  href="/logout" style="font-weight: 600; font-size: large; margin-top: 0.25rem;color: rgb(3, 3, 40);">Logout</a>
+      </li>
+  <% } else{%>
+         <li class="nav-item active"  >
+        <a class="nav-link"  href="/signup" style="font-weight: 600; font-size: large; margin-top: 0.25rem;color: rgb(3, 3, 40); ">Sign In</a>
+      </li>
+          <% } %>
+      <!-- <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="font-weight: 600; font-size: large;">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu bg-none" aria-labelledby="navbarDropdownMenuLink" style="background-color: beige;">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+<!-- style="background-color:rgb(208, 220, 164) !important;" -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

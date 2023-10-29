@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/subjects.css" />
+    <title>AP</title>
+  </head>
+  <body>
+    <h1>Applied Physics</h1>
+    <div class="topnav">
+      <a class="active" onclick="toggle()" style="cursor: pointer">PDF FILES</a>
+      <div id="myLinks">
+        <ul type="none">
+          <li>
+            All In One File :-
+            <a
+              href="/ap.pdf"
+              style="display: inline; text-decoration: underline"
+              >AP</a
+            >
+          </li>
+          <li>
+            Unit-1 :-
+            <a
+              href="/ap1.pdf"
+              style="display: inline; text-decoration: underline"
+              >ap1</a
+            >
+          </li>
+          <li>
+            Unit-2 :-
+            <a
+              href="/ap2.pdf"
+              style="display: inline; text-decoration: underline"
+              >ap2</a
+            >
+          </li>
+          <li>
+            Unit-3 :-
+            <a
+              href="/ap3.pdf"
+              style="display: inline; text-decoration: underline"
+              >ap3</a
+            >
+          </li>
+          <li>
+            Unit-4 :-
+            <a
+              href="/ap4.pdf"
+              style="display: inline; text-decoration: underline"
+              >ap4</a
+            >
+          </li>
+          <li>
+            Unit-5 :-
+            <a
+              href="/ap5.pdf"
+              style="display: inline; text-decoration: underline"
+              >ap5</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle()">
+        <i class="fas fa-chevron-down" id="i"></i>
+      </a>
+    </div>
+    <div class="topnav">
+      <a class="active" onclick="toggle('myLink','z')" style="cursor: pointer">Important Questions </a>
+      <div id="myLink">
+        <ul type="none">
+          <li>
+            Imp Questions :-
+            <a
+              href="/apimp.pdf"
+              style="display: inline; text-decoration: underline"
+              >AP.IMP</a
+            >
+          </li>
+      
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle('myLink','z')">
+        <i class="fas fa-chevron-down" id="z"></i>
+      </a>
+    </div>
+<div class="topnav">
+      <a class="active" onclick="toggle('MyLink','l')" style="cursor: pointer">Previous Questions Papers </a>
+      <div id="MyLink">
+        <ul type="none">
+          <li>
+            Imp Questions :-
+            <a
+              href="/appre.pdf"
+              style="display: inline; text-decoration: underline"
+              >AP.PREV</a
+            >
+          </li>
+      
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle('MyLink','l')">
+        <i class="fas fa-chevron-down" id="l"></i>
+      </a>
+    </div>
+<a href="https://youtu.be/4nBR_cC009s?si=naVIdexzKjhL8DRk">Interference</a>
+<a href="https://youtu.be/jS-o1pG6kwg?si=qd05SwZNfOlCrbjV">Diffraction</a>
+<a href="https://youtu.be/EJhPzndJLM4?si=w-kbokWYDfGS2fSl">Lasers & Fiber Optics</a>
+<a href="https://youtu.be/dW-DnnnSDkw?si=Xrdhduui-leckDQv">Dielectric Magnetic Materials</a>
+<a href="https://youtu.be/JQZXkqkAS5M?si=viscR4dl_V9sPfq6">Quantum Mechanics, Free Electron Theory and Band theory of Solids</a>
+<a href="https://youtu.be/H80PdnWOOqU?si=W25EPKWOjJ7Jy8xn">Meisneer Effect</a>
+    <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+      <script>
+      const toggle = (a='myLinks',b='i') => {
+        const x = document.getElementById(a);
+        const icon = document.getElementById(b);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-down');
+        } else {
+          x.style.display = "block";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-up');
+        }
+      };
+    </script>
+  </body>
+</html>

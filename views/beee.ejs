@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/subjects.css" />
+    <title>BEEE</title>
+  </head>
+  <body>
+    <h1>Basic Electrical & Electronics Engineering</h1>
+    <div class="topnav">
+      <a class="active" onclick="toggle()" style="cursor: pointer">PDF FILES</a>
+      <div id="myLinks">
+        <ul type="none">
+          <li>
+            All In One File :-
+            <a
+              href="/beee.pdf"
+              style="display: inline; text-decoration: underline"
+              >BEEE</a
+            >
+          </li>
+          <li>
+            Unit-1 :-
+            <a
+              href="/beee1.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee1</a
+            >
+          </li>
+          <li>
+            Unit-2 :-
+            <a
+              href="/beee2.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee2</a
+            >
+          </li>
+          <li>
+            Unit-3 :-
+            <a
+              href="/beee3.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee3</a
+            >
+          </li>
+          <li>
+            Unit-4 :-
+            <a
+              href="/beee4.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee4</a
+            >
+          </li>
+          <li>
+            Unit-5 :-
+            <a
+              href="/beee5.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee5</a
+            >
+          </li>
+          <li>
+            Unit-6 :-
+            <a
+              href="/beee6.pdf"
+              style="display: inline; text-decoration: underline"
+              >beee6</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle()">
+        <i class="fas fa-chevron-down" id="i"></i>
+      </a>
+    </div>
+   <div class="topnav">
+      <a class="active" onclick="toggle('myLink','z')" style="cursor: pointer">Important Questions </a>
+      <div id="myLink">
+        <ul type="none">
+          <li>
+            Imp Questions :-
+            <a
+              href="/beeimp.pdf"
+              style="display: inline; text-decoration: underline"
+              >BEEE.IMP</a
+            >
+          </li>
+      
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle('myLink','z')">
+        <i class="fas fa-chevron-down" id="z"></i>
+      </a>
+    </div>
+<a href="https://youtube.com/playlist?list=PLmAmHQ-_5ySzJrY5XlO0SPdQneyhr9v0B&si=kT-_9gn5B1sjuq5y">DC Circuits</a>
+<a href="https://youtube.com/playlist?list=PLPpCFgQP7QKExApI-dIT2YQ87nA3dI7CS&si=fmT4MtQ6AkdQuKWa">DC and AC Machines</a>
+<a href="https://youtu.be/Ll0IOk_Ltfc?si=Xu0VNmQkbDpPD-6e">Rectifiers</a>
+<a href="https://youtu.be/kiiA6WTCQn0?si=qT6wPvBbisqmU8D4">OP Amp</a>
+    <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const toggle = (a='myLinks',b='i') => {
+        const x = document.getElementById(a);
+        const icon = document.getElementById(b);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-down');
+        } else {
+          x.style.display = "block";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-up');
+        }
+      };
+    </script>
+  </body>
+</html>

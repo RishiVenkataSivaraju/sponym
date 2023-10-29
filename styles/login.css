@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+font-family: 'Inconsolata', monospace;
+color: black;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* .container{
+margin-top: 25%;
+} */
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tab{
+margin-top: 5%;
+width: 400px;
+height: 600px;
+border-radius: 10px;
+box-shadow: 6px 5px 20px 0px rgba(31, 31, 31, 0.75);
+}
+input{
+margin: 3%;
+margin-left: 22%;
+}
+label{
+margin-top: 3%;
+margin-bottom: 3%;
+margin-left: 22%;
+}
+.submit{
+margin-left: 18%;
+margin-top: 5%;
+border-radius: 20px;
+padding: 2% 25%;
+border: 1px solid white;
+color: white;
+background-color: royalblue;
+}
+h1{
+text-align: center;
+}
+.google {
+  margin-top: 5%;
+  margin-left: 11%;
+  padding: 2% 10%;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  background-color: royalblue;
+}
+.google:hover{
+cursor: pointer;
+color: royalblue;
+background-color: white;
+border: 1px solid royalblue;
+}
+.submit:hover{
+cursor: pointer;
+color: royalblue;
+background-color: white;
+border: 1px solid royalblue;
+}
+.or::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  margin-right: 20px;
+  padding: 0px 14%;
+  border-bottom: 1px solid black;
+} 
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+margin-top: 5%;
+  margin-bottom: 3%;
+}
+ .or{
+text-align: center;
+padding: 1%;
+margin: 1% 0% 2% 0%;
+transform: translateX(-40px);
+} 
+.or::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  margin-left: 22px;
+  padding: 0px 14%;
+  border-bottom: 1px solid black; 
+}
+.a{
+margin-top: 5%;
+margin-left: 16%;
+margin-right: -8%;
+}
+.p{
+margin-top: 10%;
+margin-left: 24%;
+}
+/* .msg{
+margin-right: 10%;
+} */

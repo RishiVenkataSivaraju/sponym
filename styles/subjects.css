@@ -1,0 +1,75 @@
+body{
+font-family: 'Inconsolata', monospace;
+/* background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+background-size: 200vh;
+    background-repeat: no-repeat; */
+}
+.topnav {
+  overflow: hidden;
+  background-color:rgba(46, 195, 229, 0.4);
+  position: relative;
+border-radius: 5px;
+margin: 2%  1% 0% 1%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+.topnav #myLink {
+  display: none;
+}
+.topnav #MyLink {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  display: block;
+}
+.topnav li{
+color: black;
+font-size: large;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #3b92c8;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+.icon:hover {
+  cursor: pointer;
+}
+.icon:active {
+  transition: all 0.4s cubic-bezier(0.71, 0.49, 0.63, 0.84);
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #3b92c8;
+  color: white;
+border-bottom: 1px solid white;
+}
+li{
+color: white;
+margin: 5px;
+}
+a{
+text-decoration: underline white;
+}
+a:hover{
+color: white;
+}

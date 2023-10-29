@@ -1,0 +1,27 @@
+<div class=" bg-white">
+<div class="container ">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="/home" class="nav-link px-2 text-muted">Jntua</a></li>
+      <li class="nav-item"><a href="mailto:sponym.dev@gmail.com" class="nav-link px-2 text-muted"  onmouseover="toggle('fa-solid fa-envelope','e')" onmouseleave="toggle('fa-regular fa-envelope','e')">Email: <i class="fa-regular fa-envelope" id="e"></i></a></li>
+      <li class="nav-item"><a href="" class="nav-link px-2 text-muted"  onmouseover="toggle('fa-brands fa-square-instagram','z')" onmouseleave="toggle('fa-brands fa-instagram','z')" >Instagram: <i class="fa-brands fa-instagram" id="z"></i></a></li>
+<!-- <li class="nav-item"><a href="" class="nav-link px-2 text-muted"  onmouseover="toggles('fa-solid fa-paper-plane')" onmouseleave="toggles('fa-regular fa-paper-plane')" >Telegram: <i class="fa-regular fa-paper-plane" id="z"></i></a></li> -->
+      <li class="nav-item"><a href="" class="nav-link px-2 text-muted"  onmouseover="toggle('fa-brands fa-square-github','g')" onmouseleave="toggle('fa-brands fa-github','g')" >Github: <i class="fa-brands fa-github" id="g"></i></a></li>
+      <li class="nav-item"><a href="/about" class="nav-link px-2 text-muted" >About</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2023 Sponym.com</p>
+  </footer>
+</div>
+</div>
+   <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const toggle = (a,b) => {
+        const icon = document.getElementById(b);
+        const data = icon;
+        data.setAttribute("class", a);
+      };
+    </script>

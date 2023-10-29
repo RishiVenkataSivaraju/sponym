@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/subjects.css" />
+    <title>AEC</title>
+  </head>
+  <body>
+    <h1>Building Planning And Drawring</h1>
+    <div class="topnav">
+      <a class="active" onclick="toggle()" style="cursor: pointer">PDF FILES</a>
+      <div id="myLinks">
+        <ul type="none">
+          <li>
+            All In One File :-
+            <a
+              href="/bpa.pdf"
+              style="display: inline; text-decoration: underline"
+              >BPD</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle()">
+        <i class="fas fa-chevron-down" id="i"></i>
+      </a>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+     <script>
+      const toggle = (a='myLinks',b='i') => {
+        const x = document.getElementById(a);
+        const icon = document.getElementById(b);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-down');
+        } else {
+          x.style.display = "block";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-up');
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/drpgvnojt/image/upload/v1696139441/WhatsApp_Image_2023-10-01_at_11.19.01_76436c15_scfkah.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:ital,wght@1,800&family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/welcome.css" />
+    <%- include("layout/bootsrap.ejs") %>
+    <title>Sponym.com</title>
+  </head>
+  <body>
+    <%- include("layout/navbar.ejs") %>
+<%= msg %>
+    <div class="intro">
+      <div class="logo">sponym</div>
+      <div class="info">
+        <p>
+          Sponym is a one stop destination for Btech Engineers for their Exam
+          prepartion Requirements.
+        </p>
+        <p>
+          We provide all the essential files Imp questoins,Syllabus,Previous
+          papers etc for Students.
+        </p>
+      </div>
+    </div>
+    <div id="jntua">
+      <p class="jntua">Jntua</p>
+      <p class="navigationinfo">
+        The studnets who are under Jntua affiliation on R20 Regulation follow
+        for more.
+      </p>
+      <a class="home" href="/home">Jntua Regulation - R20</a>
+    </div>
+
+ <%- include("layout/footer.ejs") %>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/subjects.css" />
+    <title>C-Programming & Data Structures</title>
+  </head>
+  <body>
+    <h1>C-Programming & Data Structures</h1>
+    <div class="topnav">
+      <a class="active" onclick="toggle()" style="cursor: pointer">PDF FILES</a>
+      <div id="myLinks">
+        <ul type="none">
+          <li>
+            All In One File :-
+            <a
+              href="/cds.pdf"
+              style="display: inline; text-decoration: underline"
+              >CDS</a
+            >
+          </li>
+          <li>
+            Unit-1 :-
+            <a
+              href="/cds1.pdf"
+              style="display: inline; text-decoration: underline"
+              >cds1</a
+            >
+          </li>
+          <li>
+            Unit-2 :-
+            <a
+              href="/cds2.pdf"
+              style="display: inline; text-decoration: underline"
+              >cds2</a
+            >
+          </li>
+          <li>
+            Unit-3 :-
+            <a
+              href="/cds3.pdf"
+              style="display: inline; text-decoration: underline"
+              >cds3</a
+            >
+          </li>
+          <li>
+            Unit-4 :-
+            <a
+              href="/cds4.pdf"
+              style="display: inline; text-decoration: underline"
+              >cds4</a
+            >
+          </li>
+          <li>
+            Unit-5 :-
+            <a
+              href="/cds5.pdf"
+              style="display: inline; text-decoration: underline"
+              >cds5</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle('mylinks','i')">
+        <i class="fas fa-chevron-down" id="i"></i>
+      </a>
+    </div>
+    <div class="topnav">
+      <a class="active" onclick="toggle('myLink','z')" style="cursor: pointer"
+        >Important Questions
+      </a>
+      <div id="myLink">
+        <ul type="none">
+          <li>
+            Imp Questions :-
+            <a
+              href="/cdsimp.pdf"
+              style="display: inline; text-decoration: underline"
+              >CDS.IMP</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle('mylink','z')">
+        <i class="fas fa-chevron-down" id="z"></i>
+      </a>
+    </div>
+<a href="https://youtube.com/playlist?list=PL5Rc9H5eTGY6jl9fwgkNlCWAwmDPufoHL&si=t8U9ETY-fjsxTtZe">C-Programming</a>
+<a href="https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&si=jTVu8zXJU8NLPcgP">DSA</a>
+<a href="https://youtube.com/playlist?list=PL5Rc9H5eTGY46HAzmNeHbrE5r9LTf_rNB&si=yj4pHlKGhkVssIRZ">DSA(2)</a>
+    <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const toggle = (a = "myLinks", b = "i") => {
+        const x = document.getElementById(a);
+        const icon = document.getElementById(b);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          const data = icon;
+          data.setAttribute("class", "fas fa-chevron-down");
+        } else {
+          x.style.display = "block";
+          const data = icon;
+          data.setAttribute("class", "fas fa-chevron-up");
+        }
+      };
+    </script>
+  </body>
+</html>

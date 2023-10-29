@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/subjects.css" />
+    <title>EE</title>
+  </head>
+  <body>
+    <h1>Electrical Engineering</h1>
+    <div class="topnav">
+      <a class="active" onclick="toggle()" style="cursor: pointer">PDF FILES</a>
+      <div id="myLinks">
+        <ul type="none">
+          <li>
+            Unit-1 :-
+            <a
+              href="/ee1.pdf"
+              style="display: inline; text-decoration: underline"
+              >ee1</a
+            >
+          </li>
+          <li>
+            Unit-2 :-
+            <a
+              href="/ee2.pdf"
+              style="display: inline; text-decoration: underline"
+              >ee2</a
+            >
+          </li>
+          <li>
+            Unit-3 :-
+            <a
+              href="/ee3.pdf"
+              style="display: inline; text-decoration: underline"
+              >ee3</a
+            >
+          </li>
+          <li>
+            Unit-4 :-
+            <a
+              href="/ee4.pdf"
+              style="display: inline; text-decoration: underline"
+              >ee4</a
+            >
+          </li>
+          <li>
+            Unit-5 :-
+            <a
+              href="/ee5.pdf"
+              style="display: inline; text-decoration: underline"
+              >ee5</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a class="icon" onclick="toggle()">
+        <i class="fas fa-chevron-down" id="i"></i>
+      </a>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2d7fa371c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const toggle = (a='myLinks',b='i') => {
+        const x = document.getElementById(a);
+        const icon = document.getElementById(b);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-down');
+        } else {
+          x.style.display = "block";
+          const data = icon;
+          data.setAttribute("class", 'fas fa-chevron-up');
+        }
+      };
+    </script>
+  </body>
+</html>

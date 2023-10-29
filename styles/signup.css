@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inconsolata", monospace;
+  color: black;
+}
+.tab {
+  margin-top: 3%;
+  width: 400px;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: 6px 5px 20px 0px rgba(31, 31, 31, 0.75);
+}
+input {
+  /* margin: 3%; */
+  margin-left: 22%;
+}
+label {
+  margin-top: 3%;
+  margin-left: 18%;
+font-size: large;
+}
+.submit {
+  margin-left: 16%;
+  margin-top: 5%;
+  border-radius: 20px;
+  padding: 2% 25%;
+  border: 1px solid white;
+  color: white;
+  background-color: royalblue;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+.google {
+  margin-top: 5%;
+  margin-left: 13%;
+  padding: 2% 10%;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  background-color: royalblue;
+}
+.google:hover {
+  cursor: pointer;
+  color: royalblue;
+  background-color: white;
+  border: 1px solid royalblue;
+}
+.submit:hover {
+  cursor: pointer;
+  color: royalblue;
+  background-color: white;
+  border: 1px solid royalblue;
+}
+.or::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  margin-right: 22px;
+  padding: 0px 14%;
+  border-bottom: 1px solid black;
+}
+.or {
+  text-align: center;
+  padding: 1%;
+  margin: 1% 0% 2% 0%;
+  transform: translateX(-40px);
+}
+.or::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  margin-left: 22px;
+  padding: 0px 14%;
+  border-bottom: 1px solid black;
+}
+.a {
+  margin-top: 5%;
+  margin-left: 18%;
+}
+p {
+  margin-top: 3%;
+  margin-left: 27%;
+}
+/* input {
+  display: block;
+  margin: 1vh;
+ width: 60%;
+}
+label {
+  display: block;
+  margin: 1vh;
+}
+h1 {
+  text-align: center;
+  
+}
+button {
+  color: white;
+  background-color: royalblue;
+  padding: 1vh 10vh;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+#google {
+  padding: 1vh 10vh;
+  color: white;
+  background-color: royalblue;
+  border-radius: 20px;
+}
+.or::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+
+  padding: 0px 11%;
+  border-bottom: 1px solid black;
+}
+.or {
+  text-align: center;
+  padding: 1%;
+
+}
+.or::after {
+  content: "";
+  flex-grow: 1;
+  padding: 0px 11%;
+margin-right: 15%;
+  border-bottom: 1px solid black;
+ 
+} */
+
